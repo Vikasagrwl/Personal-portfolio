@@ -382,7 +382,7 @@ form .btn2{
 } */
 
 .menu{
- display: none;
+ display: none !important;
 }
 
 @media only screen and (max-width: 600px){
@@ -396,7 +396,7 @@ form .btn2{
         font-size: 40px;
     }
     .menu{
-        display: block;
+        display: block !important;
         font-size: 25px;
         margin-right: 10px;
     }
